@@ -1,9 +1,14 @@
 package com.nelsonhumberto.hpdecoder;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+
+import java.util.Arrays;
 
 
 public class model2009 extends Activity {
@@ -12,7 +17,36 @@ public class model2009 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_model2009);
-    }
+
+
+        Button step = (Button) findViewById(R.id.button);
+        step.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent brand09 = new Intent(getBaseContext(), brand09.class);
+                startActivity(brand09);
+            }//close onClick
+        });//close onClick Listener
+
+        Button com = (Button) findViewById(R.id.button2);
+        com.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent com9 = new Intent(getBaseContext(), commit09.class);
+                startActivity(com9);
+            }//close onClick
+
+
+        });//close onClick Listener
+
+
+
+
+
+
+    }//close onCreate
 
 
     @Override

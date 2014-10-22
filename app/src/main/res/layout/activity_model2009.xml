@@ -7,11 +7,62 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.nelsonhumberto.hpdecoder.model2009"
-    android:background="@drawable/back0">
+    android:background="#ff000000"
+    android:id="@+id/activi2009">
 
     <TextView
-        android:text="@string/hello_world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a 2009 Model"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fffaffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="to BRAND this computer you need NDMIFIT"
+        android:id="@+id/textView3"
+        android:layout_marginTop="85dp"
+        android:textColor="#fffaffff"
+        android:textSize="25sp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STEP by STEP Branding"
+        android:id="@+id/button"
+        android:textColor="#fffaffff"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To COMMIT this Computer you need BAT File"
+        android:id="@+id/textView4"
+        android:textColor="#fffaffff"
+        android:textSize="25sp"
+
+        android:layout_above="@+id/button2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STEP by STEP Commiting"
+        android:id="@+id/button2"
+        android:textColor="#fffaffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="75dp" />
+
 
 </RelativeLayout>

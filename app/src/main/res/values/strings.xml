@@ -10,5 +10,9 @@
     <string name="title_activity_model2011">model2011</string>
     <string name="title_activity_model2012">model2012</string>
     <string name="title_activity_model2013">model2013</string>
+    <string name="title_activity_brand09">brand09</string>
+    <string name="title_activity_brand12">brand12</string>
+    <string name="title_activity_commit09">commit09</string>
+    <string name="title_activity_commit12">commit12</string>
 
 </resources>
